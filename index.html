@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ordene as Unidades</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="folha-caderno">
+      <h1>Ordene as Unidades de Medida</h1>
+      <button id="startBtn">Iniciar Jogo</button>
+      <div id="timer" style="display: none">Tempo: 120s</div>
+      <div id="game"></div>
+      <button id="submit" style="display: none">Confirmar Ordem</button>
+      <div id="message"></div>
+      <div id="nameInput">
+        <p>Digite seu nome para registrar a pontuação:</p>
+        <input type="text" id="playerName" placeholder="Seu nome" />
+        <button id="registerBtn">Registrar</button>
+      </div>
+      <div id="ranking">
+        <h2>🏆 Ranking - Top 5</h2>
+        <ol id="scoreBoard">
+        </ol>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
